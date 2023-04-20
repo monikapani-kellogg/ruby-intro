@@ -10,6 +10,13 @@
 # then write them out to the screen. Show the total
 # as well.
 
+roll1 = rand(1..6)
+roll2 = rand(1..6)
+puts "First roll: #{roll1}"
+puts "First roll: #{roll2}"
+total = roll1+roll2
+puts "Sum of 2 rolls: #{total}"
+
 # HINTS
 # Get a random number between 1 and 6 by doing:
 # rand(1..6)
